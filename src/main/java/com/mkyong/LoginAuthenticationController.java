@@ -30,7 +30,7 @@ public class LoginAuthenticationController {
     }
 
 
-    @PostMapping("/authenticate")
+    @PostMapping("/api/authenticate")
    // @ResponseStatus(HttpStatus.CREATED)
     String authenticate(@RequestBody Users newUsers) {
         System.out.println("Inside authenticate @@@@@@@@@@");
